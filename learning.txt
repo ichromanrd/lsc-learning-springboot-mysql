@@ -1,0 +1,20 @@
+# Basic REST API Spring Boot
+-----------------------------
+@RestController
+@RequestMapping
+
+@GetMapping = GET Method
+@PostMapping = POST Method
+
+@RequestHeader
+@RequestBody = POST, PUT
+@PathVariable
+@RequestParam
+
+# MySQL & JPA + Spring Boot
+----------------------------
+- Dependency MySQL Connector + Spring Boot JPA
+- Set MySQL datasource configuration in application.properties / application.yml
+- Create entity class @Entity, @Id for primary key, @GeneratedValue for Auto Increment
+- Create repository interface for the entity class
+
